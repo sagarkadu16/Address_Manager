@@ -13,6 +13,6 @@ Objective is to Manage and Store Different User data.
 
 
 2) Able to add address for selected user.
-![Address_Manager_f_2](./Addr_Manager_Frontend/public/animation/addre_manager_2.gif)
+![Address_Manager_f_2](./Addr_Manager_Frontend/public/animation/addr_manager_2.gif)
 
 Project Stack:HTML,CSS,JS,Bootstrap,React,CSV,Python,Flask
