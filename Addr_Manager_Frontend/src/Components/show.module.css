@@ -1,0 +1,48 @@
+.button{
+    position: fixed;
+    margin-left: 550px;
+    width: 110px;
+    padding: 2px;
+    background-color: rgb(217, 217, 251);
+    border:0.2px solid rgb(122, 122, 128);
+    border-radius: 5px;
+    text-align:center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}   
+
+
+.boxeffect:hover .button,
+.boxeffect:hover .add,
+.boxeffect:hover .delete{
+    opacity: 1;
+    box-shadow: 0.1px 0.1px 2px rgb(230, 227, 227);
+}
+
+.add{
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 550px;
+    width: 120px;
+    padding: 2px;
+    background-color: rgb(174, 224, 107);
+    border:0.2px solid rgb(22, 126, 39);
+    border-radius: 5px;
+    text-align:center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.delete{
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 550px;
+    width: 80px;
+    padding: 2px;
+    background-color: rgb(251, 181, 181);
+    border:0.2px solid rgb(255, 27, 149);
+    border-radius: 5px;
+    text-align:center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
